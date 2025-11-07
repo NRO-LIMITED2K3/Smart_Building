@@ -14,6 +14,7 @@ exit
 
 psql -U postgres server_version_3 < /backup.sql;
 
+
 tk: ipaclab
 
 mk: 123456
