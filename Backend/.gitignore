@@ -3,3 +3,5 @@ supervisord.log
 supervisord.pid
 exported_csv/
 media/
+__pycache__/
+*.pyc
