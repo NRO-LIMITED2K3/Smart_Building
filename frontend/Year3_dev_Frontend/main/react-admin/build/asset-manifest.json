@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68d74155.css",
+    "main.js": "/static/js/main.45977ae9.js",
+    "static/media/logo_lab.png": "/static/media/logo_lab.14ce052480ce854029f1.png",
+    "static/media/co2.svg": "/static/media/co2.5e425d6a650ecdd28a789752d5583a6c.svg",
+    "static/media/411.svg": "/static/media/411.efa6d3202c117c3cc27da29d40706029.svg",
+    "static/media/dust.svg": "/static/media/dust.1d2faffd5587d7c7066b111ecaa355b3.svg",
+    "static/media/409.svg": "/static/media/409.f5edeb5943d7fa1760fafc54ec45e311.svg",
+    "static/media/410.svg": "/static/media/410.68c6573390f69d568e5d03a71fc31056.svg",
+    "static/media/light.svg": "/static/media/light.99a4b507d235b45e50c3be7c20ef5d82.svg",
+    "static/media/sound.svg": "/static/media/sound.43fc71b81a4ad89ae203949277deea1e.svg",
+    "static/media/tvoc.svg": "/static/media/tvoc.ac30059e659c2ae6fc6f60f654e8dc3b.svg",
+    "static/media/humidity.svg": "/static/media/humidity.d54174a41edb2f48c30a306be0c0f831.svg",
+    "static/media/temperature.svg": "/static/media/temperature.7528ac8893294688f0aaa0c6334f1879.svg",
+    "static/media/motion.svg": "/static/media/motion.329e5d6c50c1c73d51ba63d69c935bf8.svg",
+    "index.html": "/index.html",
+    "main.68d74155.css.map": "/static/css/main.68d74155.css.map",
+    "main.45977ae9.js.map": "/static/js/main.45977ae9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68d74155.css",
+    "static/js/main.45977ae9.js"
+  ]
+}
