@@ -91,13 +91,24 @@ sudo docker compose up -d --build
 Copy file backup database vào container database:
 
 ```bash
-docker cp backup.sql database:/backup.sql
+cd Smart_Building
+```
+
+```bash
+sudo docker cp backup.sql database:/backup.sql
 ```
 
 Truy cập container database:
 
 ```bash
-docker exec -it database bash
+sudo docker ps
+```
+![Mô tả hình ảnh](./pictures/docker_ps.jpg)
+
+hiển thị một loạt danh sách container đang chạy
+
+```bash
+sudo docker exec -it 'id container cua postgres' bash
 ```
 
 Đăng nhập PostgreSQL:
@@ -109,8 +120,8 @@ psql -U postgres
 Xoá và tạo lại database:
 
 ```sql
-DROP DATABASE IF EXISTS server_version_3;
-CREATE DATABASE server_version_3;
+DROP DATABASE IF EXISTS 'tên db trong cấu hình';
+CREATE DATABASE 'tên db trong cấu hình';
 ```
 
 Thoát PostgreSQL:
